@@ -43,6 +43,7 @@ foreach ($array as &$element) {
         $element[] = $value;
     }
 }
+unset($element);
 print_r($array);
 
 echo '<br><br><br>';
